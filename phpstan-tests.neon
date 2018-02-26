@@ -1,5 +1,7 @@
 parameters:
     ignoreErrors:
+        - '#Function xdebug_(.*) not found#'
+
         # parent calls are intentionally omitted
         - '#Issue244Exception::__construct\(\) does not call parent constructor from Exception.#'
         - '#Issue244ExceptionIntCode::__construct\(\) does not call parent constructor from Exception.#'

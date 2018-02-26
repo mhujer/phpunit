@@ -46,7 +46,8 @@
         "sebastian/version": "^2.0.1"
     },
     "require-dev": {
-        "ext-PDO": "*"
+        "ext-PDO": "*",
+        "phpstan/phpstan": "^0.9"
     },
     "config": {
         "platform": {
@@ -77,6 +78,10 @@
             "tests/_files/CoveredFunction.php",
             "tests/_files/NamespaceCoveredFunction.php"
         ]
+    },
+    "scripts": {
+        "phpstan": "phpstan analyse --level=1 -c phpstan.neon src",
+        "phpstan-tests": "phpstan analyse --level=3 -c phpstan-tests.neon tests"
     },
     "extra": {
         "branch-alias": {
