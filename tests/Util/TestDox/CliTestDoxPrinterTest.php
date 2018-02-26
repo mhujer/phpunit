@@ -17,12 +17,12 @@ use PHPUnit\Framework\Warning;
 final class CliTestDoxPrinterTest extends TestCase
 {
     /**
-     * @var TestableCliTestDoxPrinter
+     * @var TestableCliTestDoxPrinter|null
      */
     private $printer;
 
     /**
-     * @var TestableCliTestDoxPrinter
+     * @var TestableCliTestDoxPrinter|null
      */
     private $verbosePrinter;
 

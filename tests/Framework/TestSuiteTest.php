@@ -13,7 +13,7 @@ namespace PHPUnit\Framework;
 class TestSuiteTest extends TestCase
 {
     /**
-     * @var TestResult
+     * @var TestResult|null
      */
     private $result;
 

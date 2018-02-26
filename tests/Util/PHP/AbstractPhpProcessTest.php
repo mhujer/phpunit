@@ -15,7 +15,7 @@ use PHPUnit\Framework\TestCase;
 class AbstractPhpProcessTest extends TestCase
 {
     /**
-     * @var AbstractPhpProcess|\PHPUnit\Framework\MockObject\MockObject
+     * @var AbstractPhpProcess|\PHPUnit\Framework\MockObject\MockObject|null
      */
     private $phpProcess;
 

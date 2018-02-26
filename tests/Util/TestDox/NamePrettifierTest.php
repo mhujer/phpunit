@@ -15,7 +15,7 @@ use PHPUnit\Framework\TestCase;
 class NamePrettifierTest extends TestCase
 {
     /**
-     * @var NamePrettifier
+     * @var NamePrettifier|null
      */
     private $namePrettifier;
 

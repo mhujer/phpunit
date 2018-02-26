@@ -58,12 +58,12 @@ EOF;
     private $filename;
 
     /**
-     * @var PhptTestCase
+     * @var PhptTestCase|null
      */
     private $testCase;
 
     /**
-     * @var AbstractPhpProcess|\PHPUnit\Framework\MockObject\MockObject
+     * @var AbstractPhpProcess|\PHPUnit\Framework\MockObject\MockObject|null
      */
     private $phpProcess;
 
